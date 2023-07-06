@@ -32,8 +32,10 @@
   width: 100%;
   padding: 20px;
 }
-.character {
+.li {
   list-style: none;
+}
+.character {
   color: #272c47;
   font-weight: 500;
 }

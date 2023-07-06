@@ -48,8 +48,10 @@ class CharacterCounter extends Component {
                 {list.map(eachObj => {
                   const {id, input, inputLength} = eachObj
                   return (
-                    <li key={id} className="character">
-                      {input}:{inputLength}
+                    <li key={id} className="li">
+                      <p className="character">
+                        {input}:{inputLength}
+                      </p>
                     </li>
                   )
                 })}
